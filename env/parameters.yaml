@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:throatglacier/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:throatglacier/pipelineUser:token
+  username: arcalos-bot
+prow:
+  hmacToken: vault:throatglacier/prow:hmacToken
+segmentWriteKey: vault:throatglacier:segmentWriteKey
